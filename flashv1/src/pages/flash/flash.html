@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Flash Cards</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="selectedItem" padding>
+    You navigated here from <b>{{selectedItem.title}}</b>
+  </div>
+  <ion-card class="card-container">
+    <ion-card-content class="card-content"> 
+      <ion-card-title class="flashCard">
+        Björk
+      </ion-card-title>
+      <!--<p>
+        Björk first came to prominence as one of the lead vocalists of the avant pop Icelandic sextet the Sugarcubes, but when...
+      </p>
+      <ion-item>
+        <span item-left>18 min</span>
+        <span item-left>(2.6 mi)</span>
+        <button ion-button icon-left clear item-right><ion-icon name="navigate"></ion-icon>Start</button>
+      </ion-item>-->
+    </ion-card-content>
+  </ion-card>
+</ion-content>

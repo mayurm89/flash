@@ -1,0 +1,26 @@
+page-flash {
+  .class {
+    text-align: center;
+  }
+  .card-container {
+    height: 50%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+
+    margin-right: 7%;
+    margin-left: 7%;
+    width: 86%;
+  }
+  .card-content {
+    height: 100%;
+    display: table;
+    width: 100%;
+  }
+  .flashCard {
+    height: 100%;
+    display: table-cell;
+    text-align: center;
+    width: 100%;
+    vertical-align: middle;
+  }
+}
